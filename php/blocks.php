@@ -17,4 +17,23 @@
    function createFooter(){
        print "<div class='footer'><br/><p>&copy;2017 Yukti Graphics</p></div>";
    }
+   function createPanel($size,$offset,$content)
+   {
+       $offset*=8.33;
+       $size*=8.33;
+       print"
+       <div class='spacer' style='width: $offset%; display: inline-block;'></div>
+       <div class='panel' style='width: $size%;display: inline-block;'>$content</div>
+       ";
+   }
+   function unorderedList($content)
+   {
+       $out="<ul>";
+       foreach(explode(",",$content) as $li)
+       {
+       $out = $out."\n<li>$li</li>";
+       };
+       $out = $out."\n</ul>";
+       return $out;
+   }
 ?>

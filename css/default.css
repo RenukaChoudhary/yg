@@ -17,6 +17,8 @@
 .nav-button{
     display: inline-block;
     padding: 20px;
+    margin-left:2px;
+    margin-right:2px;
 }
 .nav-button.active{
     display: inline-block;
@@ -24,6 +26,8 @@
     background-color: azure;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    margin-left:2px;
+    margin-right:2px;
 }
 .nav-button.active>a{
     color: black;
@@ -35,6 +39,8 @@
     background-color: azure;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    margin-left:2px;
+    margin-right:2px;
 }
 .nav-button>a{
     text-decoration: none;
@@ -71,4 +77,29 @@ body{
 .footer>p{
     color: white;
     margin: 30px;
+}
+
+/*elements*/
+.page button{
+    background-color: darkcyan;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 900;
+    color: white;
+}
+.page button:hover{
+    background-color: chocolate;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 900;
+    color: white;
+}
+
+.panel-translucent{
+    background-size: cover;
+    width: 80%;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(0%,0%,0%,.5);
 }
