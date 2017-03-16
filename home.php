@@ -18,9 +18,6 @@ createNavigation("HOME SERVICES ABOUT CONTACT","HOME","./res/img/logo.jpg");
         <h1 align="center">Your business means a lot to us!!!</h1>
         <h3 align="center">EXPERIENCE THE PREMIUM QUALITY OF OUR SERVICES FOR YOURSELF!!!</h3>
         <div align="center"><a href="contact.php"><button>Contact us!!!</button></a></div>
-        <?php
-        createPanel(3,1,unorderedList("a,s,d,f,g,h,j,k,l"));
-        ?>
         <br/>
     </div>
     <br/>

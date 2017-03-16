@@ -19,6 +19,9 @@
     padding: 20px;
     margin-left:2px;
     margin-right:2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: background-color .5s;
 }
 .nav-button.active{
     display: inline-block;
@@ -86,6 +89,7 @@ body{
     padding: 10px;
     font-weight: 900;
     color: white;
+    transition: background-color 0.5s;
 }
 .page button:hover{
     background-color: chocolate;
